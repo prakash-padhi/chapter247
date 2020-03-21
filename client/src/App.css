@@ -1,0 +1,85 @@
+@font-face {
+	font-family: "CustomFont400";
+	src: local("CustomFont400"),
+		url(assets/fonts/CustomFont400.woff2) format("woff2");
+}
+body {
+	font-family: "CustomFont400" !important;
+	background-color: #e9ecef !important;
+}
+
+#navBar__wrapper nav.navbar {
+	border-radius: 4px;
+}
+#navBar__wrapper .nav-link {
+	color: #FFFFFF;
+}
+.Landing__Form-Wrapper {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.productsData__wrapper {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.cartData__wrapper {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.transactionsData__wrapper {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.nav-tabs .nav-item .nav-link {
+	padding: 1rem;
+	text-align: center;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+#userLogin,
+#userRegister,
+#userResetPassword {
+	max-width: 50%;
+	margin: 0 auto;
+}
+.in-out {
+	font-size: 0.85em;
+}
+.Return__To {
+	cursor: pointer;
+	background-color: black;
+	color: #FFFFFF;
+	border-radius: 4px;
+	padding: 2px 8px;
+}
+.not_foundPageLogo {
+	width: 100%;
+}
+.Product__img {
+	max-height: 174px;
+	object-fit: contain;
+}
+.Product__Logo {
+	max-height: 140px;
+	object-fit: contain;
+}
+.Single_Transaction {
+    background: #FFF;
+    border-radius: 4px;
+}
+.Single_Transaction .text-success {
+	font-size: 14px;
+}
+.infinite-scroll-component {
+	overflow: hidden !important;
+}
+
+@media (max-width: 767px) {
+	#userLogin,
+	#userRegister,
+	#userResetPassword {
+		max-width: 100%;
+	}
+}

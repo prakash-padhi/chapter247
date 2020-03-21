@@ -1,0 +1,5 @@
+{
+    "dbURL": "mongodb+srv://chapter247:Chapter@247@cluster0-yfoml.mongodb.net/test?retryWrites=true&w=majority",
+    "dbLocalURL": "mongodb://localhost:27017/chapter247",
+	"JWTKEY": "mysecretjwt"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "chapter247",
+  "version": "1.0.0",
+  "description": "Task 3",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server",
+    "client": "npm start --prefix ../client",
+    "build": "npm run build --prefix ../client",
+    "app": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Prakash padhi",
+  "license": "MIT",
+  "dependencies": {
+    "@sendgrid/mail": "^6.5.4",
+    "bcryptjs": "^2.4.3",
+    "concurrently": "^5.1.0",
+    "config": "^3.3.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.5",
+    "stripe": "^8.33.0",
+    "uuid": "^7.0.2"
+  }
+}
